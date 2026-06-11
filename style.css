@@ -1,0 +1,44 @@
+/* Paso 3 - body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Paso 4 - header */
+header {
+  background-color: #2c3e50;
+}
+
+/* Paso 5 - nav */
+nav {
+  background-color: #34495e;
+}
+
+/* Paso 6 - main */
+main {
+  background-color: #f9f9f9;
+  font-size: 18px;
+}
+
+/* Paso 7 - footer */
+footer {
+  background-color: #2c3e50;
+}
+
+/* Paso 8 - li */
+li {
+  display: inline-block;
+  width: 100px;
+}
+
+/* Paso 9 - h1 */
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #ffffff;
+}
+
+/* Paso 10 - p */
+p {
+  line-height: 1.6;
+}
