@@ -1,3 +1,21 @@
+/* =====================
+   HW2 - Springtime in Michigan
+   ===================== */
+
+/* Skip to Main Content */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 8px;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+}
+
 /* Paso 3 - body */
 body {
   font-family: Arial, sans-serif;
@@ -11,7 +29,14 @@ header {
 
 /* Paso 5 - nav */
 nav {
+  display: inline-block;
+  width: 80%;
   background-color: #34495e;
+}
+
+/* Paso 5 - imagen SOLO dentro del nav (selector descendiente) */
+nav img {
+  width: 10%;
 }
 
 /* Paso 6 - main */
@@ -25,11 +50,11 @@ footer {
   background-color: #2c3e50;
 }
 
-/* Paso 8 - li */
-li {
+/* Paso 8 - li (COMENTADO como pide el HW2) */
+/* li {
   display: inline-block;
   width: 100px;
-}
+} */
 
 /* Paso 9 - h1 */
 h1 {
@@ -41,4 +66,29 @@ h1 {
 /* Paso 10 - p */
 p {
   line-height: 1.6;
+}
+
+/* =====================
+   HW2 - Grid y Flex
+   ===================== */
+
+/* Clase .grid - dos columnas de 40% */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+/* Imágenes SOLO dentro de .grid */
+.grid img {
+  width: 100%;
+}
+
+/* Clase .flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
